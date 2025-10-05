@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Co-Partner Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <h1>🤖 Co-Partner Studio</h1>
+    <ul>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#canvas">Brainstorm</a></li>
+      <li><a href="#evolution">Evolution</a></li>
+      <li><a href="#workspace">Workspace</a></li>
+      <li><a href="#library">Library</a></li>
+      <li><a href="#explore">Explore</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home / Dashboard -->
+  <section id="dashboard" class="page active">
+    <h2>Project Dashboard</h2>
+    <button id="newProject">➕ Start New Project</button>
+    <div class="project-grid">
+      <!-- Example projects -->
+      <div class="project-card">
+        <h3>Fantasy Hero Design</h3>
+        <p>Tag: Art</p>
+      </div>
+      <div class="project-card">
+        <h3>Cyberpunk Script</h3>
+        <p>Tag: Writing</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brainstorming Canvas -->
+  <section id="canvas" class="page">
+    <h2>Brainstorming Canvas</h2>
+    <p>Drop your ideas or click “AI Suggest” to generate new ones.</p>
+    <button id="aiSuggest">💡 AI Suggest</button>
+    <div id="ideaBoard"></div>
+  </section>
+
+  <!-- Evolution Tracker -->
+  <section id="evolution" class="page">
+    <h2>Idea Evolution Tracker</h2>
+    <p>Timeline of your creative journey.</p>
+    <div id="timeline"></div>
+  </section>
+
+  <!-- Content Workspace -->
+  <section id="workspace" class="page">
+    <h2>Content Workspace</h2>
+    <textarea id="editor" placeholder="Write or brainstorm your ideas here..."></textarea>
+  </section>
+
+  <!-- Library -->
+  <section id="library" class="page">
+    <h2>Library & History</h2>
+    <p>Access your previous brainstorms and drafts.</p>
+    <ul id="libraryList"></ul>
+  </section>
+
+  <!-- Explore -->
+  <section id="explore" class="page">
+    <h2>Explore & Inspiration</h2>
+    <p>See what others are creating.</p>
+    <div id="exploreGrid"></div>
+  </section>
+
+  <footer>
+    <p>Built with ❤️ and AI — Co-Partner Studio © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
